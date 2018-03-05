@@ -1,4 +1,4 @@
-################################  CLUSTERING ALGORITHMS ############################################
+######  CLUSTERING ALGORITHMS ######
 
 This repository contains following clustering algorithms:
 1. K-Means CLUSTERING
@@ -7,7 +7,8 @@ This repository contains following clustering algorithms:
 4. K-MEANS CLUSTERING IN A HADOOP SETUP
 The project was developed for UB CSE601 coursework. Execution details for each algorithm are described below individually.
 
-################################  K-MEANS CLUSTERING ############################################
+
+######  K-MEANS CLUSTERING ######
 
 To run the code just pass the data file path as an input command line parameter
 - Below is a sample execution command:
@@ -32,7 +33,7 @@ Output:
 - Plots using PCA for the clustering algorithm results and the ground truth clusters.
 
 
-################################  HIERARCHICAL AGGLOMERATIVE CLUSTERING ############################
+######  HIERARCHICAL AGGLOMERATIVE CLUSTERING ######
 
 - To run the code pass the data file path and the number of clusters as an input using the command line.
 - Below is a sample execution command:
@@ -52,7 +53,7 @@ Output:
 - Plots using PCA for the clustering algorithm results and the ground truth clusters.
 
 
-############################################## DBSCAN ################################################
+###### DBSCAN ######
 
 - To run the code pass the data file path, epsilon and the minimum points criteria as an input using command line.
 - Below is a sample execution command:
@@ -73,7 +74,7 @@ Output:
 - Plots using PCA for the clustering algorithm results.
 
 
-################################# KMEANS USING HADOOP MAPREDUCE ########################################
+###### KMEANS USING HADOOP MAPREDUCE ######
 
 Pre-requisite:
 * A single folder with following files in it:
